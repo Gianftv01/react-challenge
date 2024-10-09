@@ -1,0 +1,146 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f0e9;
+  box-sizing: border-box;
+}
+
+.hero__text {
+  width: 50%;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 30px;
+  box-sizing: border-box;
+  color: #7c4e4a;
+}
+
+.hero-text {
+  margin-top: 10rem;
+}
+
+.hero__text h1 {
+  font-family: "Merriweather";
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 70px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  color: #a06056;
+  width: 380px;
+}
+
+.home__design_paragraph {
+  font-family: "Varta", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #a06056;
+  margin-bottom: 50px;
+}
+
+.hero__paragraph {
+  font-family: "Varta";
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30.8px;
+  text-align: left;
+  color: rgba(112, 100, 88, 0.9);
+}
+
+.hero__content {
+  width: 420px;
+  margin: 0;
+  margin-top: 10rem;
+}
+
+.scroll-down {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #7c4e4a;
+  border-radius: 50%;
+  color: #7c4e4a;
+  font-size: 24px;
+  line-height: 46px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-down:hover {
+  background-color: #c05233;
+  color: #fff;
+}
+
+.hero__image {
+  width: 50%;
+  height: 100%;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  border: 2px solid #a06056;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.hero__more:hover {
+  transform: scale(1.1);
+}
+
+.hero__more span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__more img {
+  width: auto;
+  height: auto;
+  color: #a06056;
+}
+
+@media (min-width: 1500px) {
+  .hero__content {
+    width: 60%;
+  }
+  .home__design_paragraph {
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .hero__text h1 {
+    font-size: 120px;
+    line-height: 140px;
+    margin: 5rem 0 5rem 0;
+  }
+  .hero__paragraph {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .hero__more {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    margin-top: 5rem;
+  }
+}

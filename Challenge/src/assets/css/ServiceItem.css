@@ -1,0 +1,21 @@
+.service-item {
+  width: 258.5px;
+}
+
+.service-item h3 {
+  font-family: "Varta", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  color: #a06056;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-family: "Varta", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #706458e5;
+}

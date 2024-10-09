@@ -1,0 +1,153 @@
+.trends-section {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.trends-header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 2rem 6rem;
+  justify-content: space-between;
+}
+
+.trends__header__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.trends__header__left h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  color: #121212;
+}
+
+.trends__header__left p {
+  font-family: "Varta", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 15px 0 15px 0;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+}
+
+.trends__header__left a {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #a06056;
+}
+
+.trends__header__left a img {
+  vertical-align: middle;
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.subscribe-input {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.subscribe-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #c05233;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #7c4e4a;
+}
+
+.carrousel {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.inspirations {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1440px;
+  padding: 2rem 6rem;
+  justify-content: space-between;
+}
+
+.inspiration-title {
+  width: 360px;
+}
+
+.inspiration-title h3 {
+  font-family: "Merriweather";
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: left;
+  vertical-align: text-top;
+  color: #534b42;
+}
+
+.inspiration-content {
+  width: 359px;
+}
+
+.inspiration-content p {
+  font-family: "Varta";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #706458;
+}
+
+.inspiration-swiper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: unset !important;
+  border: 2px solid #a06056;
+  width: 50px !important;
+  height: 70px !important;
+  border-radius: 100%;
+  color: #a06056 !important;
+}
