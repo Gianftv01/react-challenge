@@ -123,19 +123,20 @@
 @media (min-width: 1500px) {
   .hero__content {
     width: 60%;
+    margin-top: 5rem;
   }
   .home__design_paragraph {
-    font-size: 30px;
-    line-height: 70px;
+    font-size: 25px;
+    line-height: 50px;
   }
   .hero__text h1 {
-    font-size: 120px;
-    line-height: 140px;
-    margin: 5rem 0 5rem 0;
+    font-size: 80px;
+    line-height: 110px;
+    margin: 3rem 0 3rem 0;
   }
   .hero__paragraph {
-    font-size: 50px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 50px;
   }
   .hero__more {
     box-sizing: border-box;

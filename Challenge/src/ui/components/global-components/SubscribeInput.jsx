@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import "../../../assets/css/SubscribeInput.css";
 
-export function SubscribeInput({
-  buttonColor = "orange",
-  successColor = "black",
-}) {
+export function SubscribeInput() {
   const [email, setEmail] = useState("");
-  const [isSubscribed, setIsSubscribed] = useState(false);
 
   const handleSubscribe = () => {
-    if (email) {
-      setIsSubscribed(true);
-    }
+    setEmail(email);
   };
 
   return (
@@ -21,17 +15,9 @@ export function SubscribeInput({
           type="email"
           placeholder="email@address.com"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
           className="subscribe-input"
         />
-        <button
-          className="subscribe-button"
-          style={{
-            backgroundColor: isSubscribed ? successColor : buttonColor,
-          }}
-        >
-          {isSubscribed ? "SUBSCRIBED!" : "SUBSCRIBE"}
-        </button>
+        <button className="subscribe-button">Subscribe</button>
       </form>
     </div>
   );

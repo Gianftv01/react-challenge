@@ -115,8 +115,13 @@ export function TrendsSection() {
           </div>
 
           <div className="inspiration-swiper">
-            <button ref={prevRef} className="swiper-button-prev"></button>
-            <button ref={nextRef} className="swiper-button-next"></button>
+            <div className="inspiration-buttons">
+              <button ref={prevRef} className="swiper-button-prev"></button>
+              <button ref={nextRef} className="swiper-button-next"></button>
+            </div>
+            <div className="inspiration-span">
+              <span>01/05</span>
+            </div>
           </div>
         </div>
       </div>

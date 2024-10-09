@@ -66,32 +66,6 @@
   max-width: 720px;
 }
 
-.subscribe-input {
-  flex: 1;
-  padding: 15px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.subscribe-button {
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #c05233;
-  transition: background-color 0.3s ease;
-}
-
-.subscribe-button:hover {
-  background-color: #7c4e4a;
-}
-
 .carrousel {
   margin: 50px 0;
   width: 100%;
@@ -109,7 +83,7 @@
 }
 
 .inspiration-title {
-  width: 360px;
+  width: 33.3%;
 }
 
 .inspiration-title h3 {
@@ -124,7 +98,7 @@
 }
 
 .inspiration-content {
-  width: 359px;
+  width: 33.3%;
 }
 
 .inspiration-content p {
@@ -138,8 +112,33 @@
 
 .inspiration-swiper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+  margin-top: 1.3rem;
+}
+
+.inspiration-buttons {
+  display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.inspiration-span {
+  margin-top: 1rem;
+  align-items: flex-start;
+  text-align: left;
+  width: 25%;
+}
+
+.inspiration-span span {
+  font-family: "Varta";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #706458e5;
 }
 
 .swiper-button-prev,
@@ -147,7 +146,14 @@
   position: unset !important;
   border: 2px solid #a06056;
   width: 50px !important;
-  height: 70px !important;
+  height: 50px !important;
   border-radius: 100%;
   color: #a06056 !important;
+  background: transparent;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px !important;
+  font-weight: bold !important;
 }
