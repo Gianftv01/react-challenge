@@ -14,12 +14,12 @@ export function Footer() {
     <section className="page-width">
       <div className="footer">
         <div className="footer__header">
-          <div>
+          <div className="first-footer-container">
             <a href="/">
               <img className="footer__logotype" src={logotype} alt="" />
             </a>
           </div>
-          <div>
+          <div className="info-footer-container">
             <h3>Products</h3>
             <ul>
               <li>Furniture</li>
@@ -29,7 +29,7 @@ export function Footer() {
               <li>Connected home</li>
             </ul>
           </div>
-          <div>
+          <div className="info-footer-container">
             <h3>Rooms</h3>
             <ul>
               <li>Living room</li>
@@ -42,7 +42,7 @@ export function Footer() {
               <li>Garage</li>
             </ul>
           </div>
-          <div>
+          <div className="info-footer-container">
             <h3>Services</h3>
             <ul>
               <li>Click and collect</li>
@@ -52,7 +52,7 @@ export function Footer() {
               <li>Gift card</li>
             </ul>
           </div>
-          <div>
+          <div className="info-footer-container">
             <h3>About</h3>
             <ul>
               <li>Our story</li>
@@ -60,7 +60,7 @@ export function Footer() {
               <li>Our partners</li>
             </ul>
           </div>
-          <div>
+          <div className="last-container">
             <h3>We respect our planet</h3>
             <div>
               <img className="footer__image" src={planet} alt="" />

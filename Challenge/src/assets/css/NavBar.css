@@ -48,3 +48,14 @@
     text-decoration: none;
   }
 }
+
+@media (max-width: 1025px) {
+  .header {
+    margin: 0;
+    gap: 25px;
+  }
+
+  .header__nav ul li a {
+    font-size: 14px;
+  }
+}

@@ -44,3 +44,16 @@
 .subscribe-button:hover {
   background-color: #3b342e;
 }
+
+@media (max-width: 950px) {
+  .subscribe-container {
+    flex-direction: column;
+    column-gap: 20px;
+  }
+
+  .subscribe-input,
+  .subscribe-button {
+    margin-top: 16px;
+    width: 100%;
+  }
+}

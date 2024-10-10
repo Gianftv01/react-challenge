@@ -40,9 +40,53 @@
   color: #7c4e4a;
 }
 
+.find-out-more img {
+  vertical-align: middle;
+}
+
 .services-section__right {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 48%;
+}
+
+@media (max-width: 1025px) {
+  .services-section {
+    padding: 2rem;
+  }
+
+  .services-section__left h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 950px) {
+  .services-section {
+    flex-direction: column;
+    width: 390px;
+    padding: 3rem 2rem;
+  }
+
+  .services-section__left {
+    width: 326px;
+  }
+
+  .services-section__left h2 {
+    width: 100%;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+
+  .services-section__right {
+    width: 326px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+  }
+
+  .find-out-more {
+    margin-top: 0;
+    margin-bottom: 41px;
+  }
 }

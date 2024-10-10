@@ -71,6 +71,10 @@
   width: 100%;
 }
 
+.carrousel-mobile {
+  display: none;
+}
+
 .inspirations {
   display: flex;
   flex-direction: row;
@@ -156,4 +160,75 @@
 .swiper-button-next:after {
   font-size: 20px !important;
   font-weight: bold !important;
+}
+
+@media (max-width: 1025px) {
+  .trends-header {
+    padding: 2rem;
+  }
+
+  .inspirations {
+    padding: 2rem;
+  }
+
+  .inspiration-span {
+    width: 35%;
+  }
+
+  .inspiration-title h3 {
+    font-size: 35px;
+  }
+
+  .trends__header__left p,
+  .trends__header__left a,
+  .inspiration-content p,
+  .inspiration-span span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 950px) {
+  .trends-section {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .trends-header {
+    padding: 0;
+    width: 311px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trends__header__left {
+    width: 100%;
+  }
+
+  .inspirations {
+    padding: 0;
+    width: 311px;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .inspiration-title {
+    margin-bottom: 40px;
+  }
+
+  .inspiration-title,
+  .inspiration-content {
+    width: 100%;
+  }
+
+  .inspiration-swiper {
+    display: none;
+  }
+
+  .carrousel {
+    display: none;
+  }
+
+  .carrousel-mobile {
+    display: block;
+  }
 }

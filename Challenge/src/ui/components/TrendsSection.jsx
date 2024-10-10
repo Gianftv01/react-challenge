@@ -3,6 +3,7 @@ import "../../assets/css/TrendsSection.css";
 import { SubscribeInput } from "./global-components/SubscribeInput";
 import Rigth from "../../assets/Right.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import Rectangle1 from "../../assets/carrousel-images/Rectangle1.png";
@@ -123,6 +124,42 @@ export function TrendsSection() {
               <span>01/05</span>
             </div>
           </div>
+        </div>
+
+        <div className="carrousel-mobile">
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={"auto"}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+          >
+            <SwiperSlide>
+              <img src={Rectangle2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle3} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle4} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle5} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle3} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle4} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Rectangle5} alt="" />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>

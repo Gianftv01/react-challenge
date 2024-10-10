@@ -11,9 +11,7 @@ export function ServicesSection() {
           <h2>We stay by your side to design your projects</h2>
           <a href="#more" className="find-out-more">
             Find out more
-            <span>
-              <img src={Rigth} alt="" />
-            </span>
+            <img src={Rigth} alt="" />
           </a>
         </div>
         <div className="services-section__right">

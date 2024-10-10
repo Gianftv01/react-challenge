@@ -138,3 +138,82 @@
 .footer__policy div a:hover {
   color: #a06056;
 }
+
+@media (max-width: 1025px) {
+  .footer {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer {
+    width: 390px;
+    padding: 3rem 2rem;
+  }
+
+  .footer__header {
+    flex-direction: column;
+  }
+
+  .first-footer-container {
+    width: 326px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-footer-container {
+    margin-top: 40px;
+    width: 326px;
+  }
+
+  .info-footer-container h3 {
+    font-family: "Varta";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #121212;
+    margin: 0;
+  }
+
+  .info-footer-container li {
+    font-family: "Varta";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #706458;
+  }
+
+  .last-container {
+    width: 326px;
+    margin-top: 40px;
+  }
+
+  .footer__header div:nth-last-child(1) {
+    width: 100%;
+  }
+
+  .footer__policy {
+    width: 311px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footer__policy div a {
+    width: 100%;
+    font-family: "Varta";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.45);
+  }
+
+  .footer__policy div:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+  }
+}

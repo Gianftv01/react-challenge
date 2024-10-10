@@ -1,0 +1,85 @@
+.mobile-hero {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  background-image: url("../Picture.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-header {
+  padding: 41px 0 0 22.88px;
+}
+
+.hero-content-mobile {
+  width: 390px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__design_paragraph-mobile {
+  width: 340px;
+  font-family: "Varta";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero-content-mobile h4 {
+  font-family: "Merriweather";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+
+.hero__paragraph-mobile {
+  width: 340px;
+  height: 50px;
+  font-family: "Varta";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(247, 248, 249, 1);
+}
+
+.hero__more-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.hero__more-mobile:hover {
+  transform: scale(1.1);
+}
+
+.hero__more-mobile span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__more-mobile img {
+  width: auto;
+  height: auto;
+  color: rgba(255, 255, 255, 1);
+}
