@@ -1,0 +1,102 @@
+.related-products-swiper {
+  padding: 2rem 3rem;
+}
+
+.related-products-swiper h2 {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.73px;
+  text-align: center;
+  color: rgba(25, 25, 25, 1);
+  margin-bottom: 40px;
+}
+
+.related-products-swiper .product-card {
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  background: rgba(241, 241, 241, 1);
+}
+
+.related-products-swiper .product-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.related-products-swiper .product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.related-products-swiper .price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-products-swiper .original-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.related-products-swiper .product-details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.add-to-cart-button-container {
+  padding: 25px 25px;
+  margin-top: -50px;
+}
+
+.product-card-desc {
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.product-name {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: center;
+  color: rgba(25, 25, 25, 1);
+}
+
+.product-card-price {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: center;
+  color: rgba(25, 25, 25, 1);
+}
+
+.swiper-pagination {
+  margin-top: 2rem;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .product-name {
+    font-size: 11px;
+    line-height: 13.31px;
+  }
+
+  .product-card-price {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+}

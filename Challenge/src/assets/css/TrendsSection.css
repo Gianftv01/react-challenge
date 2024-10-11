@@ -66,13 +66,39 @@
   max-width: 720px;
 }
 
+.inspirations-mobile {
+  display: none;
+}
+
+.subscribe-input {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.subscribe-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #c05233;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #7c4e4a;
+}
+
 .carrousel {
   margin: 50px 0;
   width: 100%;
-}
-
-.carrousel-mobile {
-  display: none;
 }
 
 .inspirations {
@@ -87,7 +113,7 @@
 }
 
 .inspiration-title {
-  width: 33.3%;
+  width: 360px;
 }
 
 .inspiration-title h3 {
@@ -102,7 +128,7 @@
 }
 
 .inspiration-content {
-  width: 33.3%;
+  width: 359px;
 }
 
 .inspiration-content p {
@@ -116,33 +142,8 @@
 
 .inspiration-swiper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 33.3%;
-  margin-top: 1.3rem;
-}
-
-.inspiration-buttons {
-  display: flex;
   flex-direction: row;
   gap: 1rem;
-}
-
-.inspiration-span {
-  margin-top: 1rem;
-  align-items: flex-start;
-  text-align: left;
-  width: 25%;
-}
-
-.inspiration-span span {
-  font-family: "Varta";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  text-align: left;
-  color: #706458e5;
 }
 
 .swiper-button-prev,
@@ -153,82 +154,45 @@
   height: 50px !important;
   border-radius: 100%;
   color: #a06056 !important;
-  background: transparent;
+  background: transparent !important;
 }
 
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  font-size: 20px !important;
-  font-weight: bold !important;
-}
-
-@media (max-width: 1025px) {
-  .trends-header {
-    padding: 2rem;
-  }
-
-  .inspirations {
-    padding: 2rem;
-  }
-
-  .inspiration-span {
-    width: 35%;
-  }
-
-  .inspiration-title h3 {
-    font-size: 35px;
-  }
-
-  .trends__header__left p,
-  .trends__header__left a,
-  .inspiration-content p,
-  .inspiration-span span {
-    font-size: 14px;
-  }
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 12px !important;
 }
 
 @media (max-width: 950px) {
-  .trends-section {
-    width: 100%;
-    padding: 3rem 2rem;
-  }
-
-  .trends-header {
-    padding: 0;
-    width: 311px;
+  .inspirations-mobile {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2rem 6rem;
+    align-items: flex-start;
+    text-align: left;
   }
 
-  .trends__header__left {
-    width: 100%;
+  .inspirations-mobile h3 {
+    margin-bottom: 2rem;
   }
 
   .inspirations {
-    padding: 0;
-    width: 311px;
-    flex-direction: column;
-    margin-top: 40px;
+    display: none;
   }
 
-  .inspiration-title {
-    margin-bottom: 40px;
+  .trends-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    padding: 2rem 6rem;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .inspiration-title,
   .inspiration-content {
-    width: 100%;
-  }
-
-  .inspiration-swiper {
-    display: none;
-  }
-
-  .carrousel {
-    display: none;
-  }
-
-  .carrousel-mobile {
-    display: block;
+    width: auto;
   }
 }

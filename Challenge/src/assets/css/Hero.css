@@ -123,26 +123,27 @@
 @media (min-width: 1500px) {
   .hero__content {
     width: 60%;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .home__design_paragraph {
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 20px;
   }
   .hero__text h1 {
-    font-size: 80px;
-    line-height: 110px;
-    margin: 3rem 0 3rem 0;
+    font-size: 50px;
+    line-height: 70px;
+    width: 450px;
   }
   .hero__paragraph {
-    font-size: 40px;
+    margin-top: 1rem;
+    font-size: 30px;
     line-height: 50px;
+    justify-content: center;
   }
   .hero__more {
     box-sizing: border-box;
     width: 70px;
     height: 70px;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 }
 

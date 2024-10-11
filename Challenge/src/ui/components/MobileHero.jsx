@@ -16,7 +16,7 @@ export function MobileHero() {
           <p className="hero__paragraph-mobile">
             We provide everyone with modern, trendy, quality furniture
           </p>
-          <a href="/" className="hero__more-mobile">
+          <a href="#section" className="hero__more-mobile">
             <span>
               <img src={DownWhite} alt="" />
             </span>

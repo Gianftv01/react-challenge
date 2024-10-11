@@ -1,0 +1,59 @@
+.collection-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(244, 245, 248, 1);
+  padding: 40px 0;
+  height: 256px;
+}
+
+.collection-title {
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: left;
+  color: rgba(25, 25, 25, 1);
+}
+
+.breadcrumb {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: rgba(25, 25, 25, 1);
+}
+
+@media (max-width: 768px) {
+  .collection-banner {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .collection-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+
+  .breadcrumb {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .collection-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

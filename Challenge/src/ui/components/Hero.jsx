@@ -17,7 +17,7 @@ export function Hero() {
               <p className="hero__paragraph">
                 We provide everyone with modern, trendy, quality furniture
               </p>
-              <a href="/" className="hero__more">
+              <a href="#section" className="hero__more">
                 <span>
                   <img src={Down} alt="" />
                 </span>
