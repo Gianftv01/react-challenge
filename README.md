@@ -11,8 +11,8 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://your-repository.com/path/to/repo.git
-   cd repo-name
+   git clone https://github.com/Gianftv01/react-challenge.git
+   cd react-challenge
 
    ```
 
