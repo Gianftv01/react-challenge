@@ -36,26 +36,15 @@
 
 @media (min-width: 1500px) {
   .header__nav ul {
-    gap: 50px;
+    gap: 20px;
   }
   .header__nav ul li a {
     font-family: "Varta";
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 25px;
     text-align: left;
     color: #706458;
     text-decoration: none;
-  }
-}
-
-@media (max-width: 1025px) {
-  .header {
-    margin: 0;
-    gap: 25px;
-  }
-
-  .header__nav ul li a {
-    font-size: 14px;
   }
 }

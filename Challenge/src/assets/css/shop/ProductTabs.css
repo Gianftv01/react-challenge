@@ -1,0 +1,74 @@
+.product-tabs {
+  margin-top: 20px;
+}
+
+.tab-buttons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-evenly;
+}
+
+.tab-buttons li {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.63px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.tab-buttons li.active {
+  border-bottom: 1px solid rgba(231, 60, 23, 1); /* Línea naranja debajo de la pestaña activa */
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top: 0.6px solid rgba(217, 217, 217, 1);
+}
+
+.tab-content div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  gap: 20px;
+}
+
+.tab-content p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.78px;
+  text-align: left;
+  color: rgba(25, 25, 25, 1);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(217, 217, 217, 1);
+  margin: 0 20px;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .tab-content div {
+    width: 100%;
+  }
+
+  .tab-buttons li {
+    padding: 0;
+  }
+
+  .tab-buttons li {
+    font-size: 18px;
+  }
+}

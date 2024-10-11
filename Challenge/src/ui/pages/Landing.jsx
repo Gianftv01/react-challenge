@@ -7,8 +7,13 @@ import { MobileHero } from "../components/MobileHero";
 
 export function Landing() {
   return (
-    <div>
-      <Hero />
+    <div className="LandingContainer">
+      <div className="productDesktop">
+        <Hero />
+      </div>
+      <div className="mobile">
+        <MobileHero />
+      </div>
       <ServicesSection />
       <TrendsSection />
       <Footer />

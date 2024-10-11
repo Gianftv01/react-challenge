@@ -1,0 +1,142 @@
+.product-details-mobile {
+  padding: 1rem;
+}
+
+.main-image-mobile {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-image-mobile img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.image-caption-mobile {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.swiper-container {
+  margin-top: 10px;
+}
+
+.mySwiper img {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+
+.product-info-mobile {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.product-info-mobile h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-rating-mobile {
+  display: flex;
+  gap: 5px;
+}
+
+.product-features-mobile {
+  margin: 10px 0;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.product-features-mobile li {
+  margin-bottom: 5px;
+}
+
+.product-sizes-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.size-option-mobile {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+.size-option-mobile.active {
+  background-color: #e73c17;
+  color: #fff;
+  border-color: #e73c17;
+}
+
+.product-price-mobile {
+  margin: 20px 0;
+}
+
+.price-note-mobile {
+  font-size: 14px;
+  color: #666;
+}
+
+.current-price-mobile {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e73c17;
+}
+
+.original-price-mobile {
+  font-size: 18px;
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.product-actions-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.buy-now-mobile,
+.add-to-cart-mobile {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.buy-now-mobile {
+  background-color: #e73c17;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-mobile {
+  background-color: transparent;
+  border: 2px solid #e73c17;
+  color: #e73c17;
+  cursor: pointer;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+  color: white !important;
+  background: rgba(231, 60, 23, 1);
+  width: 40px !important; /* Ancho del botón */
+  height: 40px !important; /* Altura del botón */
+  display: flex; /* Usa flex para centrar el icono dentro */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  border: none; /* Sin borde */
+  cursor: pointer; /* Cursor de mano al pasar el mouse */
+}

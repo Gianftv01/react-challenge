@@ -10,11 +10,10 @@
 }
 
 .hero-header {
-  padding: 41px 0 0 22.88px;
+  padding: 41px 0 0 0;
 }
 
 .hero-content-mobile {
-  width: 390px;
   padding: 25px;
   display: flex;
   flex-direction: column;

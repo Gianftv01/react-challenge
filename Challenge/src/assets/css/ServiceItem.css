@@ -19,23 +19,3 @@
   line-height: 25px;
   color: #706458e5;
 }
-
-@media (max-width: 1025px) {
-  .service-item {
-    width: 221.5px;
-  }
-
-  .service-item p {
-    font-size: 14px;
-  }
-
-  .service-item h3 {
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 950px) {
-  .service-item {
-    width: 100%;
-  }
-}

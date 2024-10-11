@@ -35,7 +35,7 @@ export function TrendsSection() {
   return (
     <section className="page-width">
       <div className="trends-section">
-        <div className="trends-header">
+        <div id="section" className="trends-header">
           <div className="trends__header__left">
             <h2>Be aware of the latest trends</h2>
             <p>Stay informed of new trends, but also of our various offers.</p>
@@ -50,15 +50,32 @@ export function TrendsSection() {
           </div>
         </div>
 
+        <div className="inspirations-mobile">
+          <div className="inspiration-title">
+            <h3>Inspirations</h3>
+          </div>
+          <div className="inspiration-content">
+            <p>
+              Our experts are keen to stay on top of trends in order to offer
+              you new inspirations for your interior and exterior every day.
+              Remember that to inspire you we have to inspire ourselves and we
+              want to share that with you.
+            </p>
+          </div>
+        </div>
+
         <div className="carrousel">
           <Swiper
             ref={swiperRef}
-            slidesPerView={7}
-            spaceBetween={1}
+            slidesPerView={1.5}
+            spaceBetween={10}
             navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
-            centeredSlides={true}
             loop={true}
             breakpoints={{
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+              },
               1024: {
                 slidesPerView: 4,
                 spaceBetween: 40,
@@ -116,50 +133,12 @@ export function TrendsSection() {
           </div>
 
           <div className="inspiration-swiper">
-            <div className="inspiration-buttons">
-              <button ref={prevRef} className="swiper-button-prev"></button>
-              <button ref={nextRef} className="swiper-button-next"></button>
-            </div>
+            <button ref={prevRef} className="swiper-button-prev"></button>
+            <button ref={nextRef} className="swiper-button-next"></button>
             <div className="inspiration-span">
               <span>01/05</span>
             </div>
           </div>
-        </div>
-
-        <div className="carrousel-mobile">
-          <Swiper
-            slidesPerView={2}
-            spaceBetween={"auto"}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[Pagination]}
-          >
-            <SwiperSlide>
-              <img src={Rectangle2} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle3} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle4} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle5} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle2} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle3} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle4} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={Rectangle5} alt="" />
-            </SwiperSlide>
-          </Swiper>
         </div>
       </div>
     </section>

@@ -1,0 +1,89 @@
+/* Estilos generales del header */
+.header-shop-mobile {
+  background-color: white;
+  padding: 25px 10px 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-shop-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-shop-mobile-menu-hamburger {
+  cursor: pointer;
+  background: rgba(231, 60, 23, 1);
+  padding: 5px;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.header-shop-mobile-menu-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-shop-mobile-logo img {
+  max-width: 100px; /* Ajusta según el tamaño del logo */
+  height: auto;
+}
+
+.header-shop-mobile-user-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-shop-mobile-user-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.header-shop-mobile-cart-icon {
+  position: relative;
+}
+
+.header-shop-mobile-cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menú desplegable estilo dropdown */
+.header-shop-mobile-menu-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top: 1px solid #f0f0f0;
+}
+
+.header-shop-mobile-menu-dropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-shop-mobile-menu-dropdown li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.header-shop-mobile-menu-dropdown li:hover {
+  background-color: #f0f0f0;
+}
